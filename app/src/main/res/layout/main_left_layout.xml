@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x8"
+        android:layout_marginRight="@dimen/x8"
+        android:layout_marginBottom="@dimen/y6"
+        android:layout_marginTop="@dimen/y6"
+        android:text="@string/menu"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@android:color/darker_gray" />
+
+    <com.vplayer.www.ui.custom.ImageTextView
+        android:id="@+id/left_home"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y26"
+        android:layout_marginBottom="@dimen/y5"
+        android:layout_marginTop="@dimen/y5"
+        android:drawablePadding="@dimen/x10"
+        android:gravity="center"
+        android:paddingLeft="@dimen/x18"
+        android:paddingRight="@dimen/x35"
+        android:text="@string/home"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:drawable="@drawable/home"
+        app:drawableHeight="@dimen/y12"
+        app:drawableWidth="@dimen/x18"
+        app:position="1"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@android:color/darker_gray" />
+
+    <com.vplayer.www.ui.custom.ImageTextView
+        android:id="@+id/left_like"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y26"
+        android:layout_marginBottom="@dimen/y5"
+        android:layout_marginTop="@dimen/y5"
+        android:drawablePadding="@dimen/x10"
+        android:gravity="center"
+        android:paddingLeft="@dimen/x18"
+        android:paddingRight="@dimen/x35"
+        android:text="@string/like"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:drawable="@drawable/like"
+        app:drawableHeight="@dimen/y12"
+        app:drawableWidth="@dimen/x18"
+        app:position="1"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@android:color/darker_gray" />
+
+    <com.vplayer.www.ui.custom.ImageTextView
+        android:id="@+id/left_search"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y26"
+        android:layout_marginBottom="@dimen/y5"
+        android:layout_marginTop="@dimen/y5"
+        android:drawablePadding="@dimen/x10"
+        android:gravity="center"
+        android:paddingLeft="@dimen/x18"
+        android:paddingRight="@dimen/x35"
+        android:text="@string/search"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:drawable="@drawable/search_tab"
+        app:drawableHeight="@dimen/y12"
+        app:drawableWidth="@dimen/x18"
+        app:position="1"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@android:color/darker_gray" />
+
+    <com.vplayer.www.ui.custom.ImageTextView
+        android:id="@+id/left_suggest"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y26"
+        android:layout_marginBottom="@dimen/y5"
+        android:layout_marginTop="@dimen/y7"
+        android:drawablePadding="@dimen/x10"
+        android:gravity="center"
+        android:paddingLeft="@dimen/x18"
+        android:text="@string/ProblemsAndProposals"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:drawable="@drawable/ding"
+        app:drawableHeight="@dimen/y12"
+        app:drawableWidth="@dimen/x18"
+        app:position="1"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/y2"
+        android:src="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x8"
+        android:layout_marginRight="@dimen/x8"
+        android:layout_marginBottom="@dimen/y6"
+        android:layout_marginTop="@dimen/y6"
+        android:text="@string/setting"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@android:color/darker_gray" />
+
+    <com.vplayer.www.ui.custom.ImageTextView
+        android:id="@+id/left_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y26"
+        android:layout_marginBottom="@dimen/y5"
+        android:layout_marginTop="@dimen/y5"
+        android:drawablePadding="@dimen/x10"
+        android:gravity="center"
+        android:paddingRight="@dimen/x35"
+        android:paddingLeft="@dimen/x18"
+        android:text="@string/setting"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:drawable="@drawable/setting"
+        app:drawableHeight="@dimen/y12"
+        app:drawableWidth="@dimen/x18"
+        app:position="1"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray" />
+
+
+    <Button
+        android:id="@+id/left_shape"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y24"
+        android:layout_marginLeft="@dimen/x10"
+        android:layout_marginRight="@dimen/x10"
+        android:layout_marginTop="@dimen/y26"
+        android:background="@drawable/left_button_shape"
+        android:gravity="center"
+        android:text="@string/ShapeFriend"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp" />
+</merge>

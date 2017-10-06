@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vplayer.www.ui.refresh.MaterialRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:overlay="true"
+    app:wave_color="#d6000000"
+    app:progress_colors="@array/material_colors"
+    app:progress_show_circle_backgroud="true"
+    app:fristRefresh="true"
+    app:wave_height_type="normal"
+    app:isLoadMore="true"
+    app:wave_show="true">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/rg_bar"
+            android:layout_width="match_parent"
+            android:clipChildren="false"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tab_home"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y25"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:tabIndicatorColor="@android:color/holo_orange_light"
+                app:tabSelectedTextColor="@android:color/holo_orange_light"
+                app:tabTextColor="@android:color/white" />
+
+            <com.vplayer.www.ui.custom.MyRadioGroup
+                android:id="@+id/rg_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/x7"
+                android:paddingRight="@dimen/x7"
+                app:layout_scrollFlags="scroll|enterAlways" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rec_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</com.vplayer.www.ui.refresh.MaterialRefreshLayout>

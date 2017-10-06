@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AVideo</string>
+    <string name="menu">选单</string>
+    <string name="home">首页</string>
+    <string name="like">收藏</string>
+    <string name="search">搜索</string>
+    <string name="ProblemsAndProposals">问题与建议</string>
+    <string name="setting">设定</string>
+    <string name="ShapeFriend">分享我的暗夜伙伴</string>
+
+
+    <!--刷新颜色-->
+    <string name="app_material">BRLayoutLibrary</string>
+    <integer-array name="material_colors">
+        <item>@color/material_red</item>
+        <item>@color/material_green</item>
+        <item>@color/material_blue</item>
+        <item>@color/material_yellow</item>
+    </integer-array>
+
+</resources>
