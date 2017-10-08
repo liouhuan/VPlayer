@@ -6,14 +6,14 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import com.chad.library.adapter.base.BaseQuickAdapter;
+import com.chad.library.adapter.base.listener.OnItemClickListener;
+import com.tnt.MaterialRefreshLayout;
+import com.tnt.MaterialRefreshListener;
 import com.vplayer.www.R;
 import com.vplayer.www.controller.adapter.LikeAdapter;
 import com.vplayer.www.controller.base.BaseFragment;
-import com.vplayer.www.ui.refresh.MaterialRefreshLayout;
-import com.vplayer.www.ui.refresh.MaterialRefreshListener;
 import com.vplayer.www.utils.ToastUtil;
-import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.chad.library.adapter.base.listener.OnItemClickListener;
 
 import java.util.ArrayList;
 import java.util.List;

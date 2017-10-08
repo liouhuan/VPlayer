@@ -2,17 +2,15 @@ package com.vplayer.www.model;
 
 import android.app.Activity;
 import android.text.TextUtils;
-
-import com.vplayer.www.api.API;
-import com.vplayer.www.api.callback.StringDialogCallback;
-import com.vplayer.www.model.bean.VideoBean;
-import com.vplayer.www.ui.refresh.MaterialRefreshLayout;
-import com.vplayer.www.utils.LogUtil;
-import com.vplayer.www.utils.ToastUtil;
 import com.google.gson.Gson;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.model.Response;
-
+import com.tnt.MaterialRefreshLayout;
+import com.vplayer.www.api.API;
+import com.vplayer.www.api.callback.StringDialogCallback;
+import com.vplayer.www.model.bean.VideoBean;
+import com.vplayer.www.utils.LogUtil;
+import com.vplayer.www.utils.ToastUtil;
 import org.greenrobot.eventbus.EventBus;
 
 /**
