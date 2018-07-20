@@ -5,9 +5,6 @@ import android.support.v7.widget.RecyclerView;
 
 /**
  * Description:
- * Copyright  : Copyright (c) 2017
- * Author     : Young
- * Date       : 2017/10/5 13:02 *
  */
 
 public class RecycleUtils {

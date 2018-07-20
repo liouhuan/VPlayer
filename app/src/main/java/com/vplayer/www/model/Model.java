@@ -15,9 +15,6 @@ import org.greenrobot.eventbus.EventBus;
 
 /**
  * Description:
- * Copyright  : Copyright (c) 2017
- * Author     : Young
- * Date       : 2017/9/27
  */
 
 public class Model {

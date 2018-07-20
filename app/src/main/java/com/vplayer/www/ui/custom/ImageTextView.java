@@ -11,9 +11,6 @@ import com.vplayer.www.R;
 
 /**
  * Description:
- * Copyright  : Copyright (c) 2017
- * Author     : Young
- * Date       : 2017/9/30 15:35 *
  */
 
 public class ImageTextView extends android.support.v7.widget.AppCompatTextView {

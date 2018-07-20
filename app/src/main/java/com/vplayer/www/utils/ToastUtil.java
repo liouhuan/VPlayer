@@ -6,11 +6,11 @@ import android.widget.Toast;
 
 /**
  * Created by Administrator on 2016/11/30 0030.
- * <p>
+ *
  * showShort（）;
  * 短时间显示Toast(String类型变量)
  * 短时间显示Toast（Int类型）
- * <p>
+ *
  * show();
  * 自定义时间显示Toast(String类型变量)
  * 自定义时间显示Toast时间显示Toast（Int类型）

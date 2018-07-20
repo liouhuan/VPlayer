@@ -8,9 +8,6 @@ import android.widget.RadioGroup;
 
 /**
  * Description:
- * Copyright  : Copyright (c) 2017
- * Author     : Young
- * Date       : 2017/10/1 15:03 *
  */
 
 public class MyRadioGroup extends RadioGroup{

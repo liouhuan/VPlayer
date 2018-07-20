@@ -5,9 +5,6 @@ import java.util.List;
 
 /**
  * Description:
- * Copyright  : Copyright (c) 2017
- * Author     : Young
- * Date       : 2017/10/2 17:04 *
  */
 
 public class VideoBean  implements Serializable{

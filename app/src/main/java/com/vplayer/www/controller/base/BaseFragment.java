@@ -12,9 +12,6 @@ import butterknife.ButterKnife;
 
 /**
  * Description:
- * Copyright  : Copyright (c) 2017
- * Author     : Young
- * Date       : 2017/9/30 13:42 *
  */
 
 public abstract class BaseFragment extends Fragment {

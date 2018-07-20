@@ -22,9 +22,6 @@ import butterknife.BindView;
 
 /**
  * Description:
- * Copyright  : Copyright (c) 2017
- * Author     : Young
- * Date       : 2017/9/30 13:17 *
  */
 
 public class LikeFragment extends BaseFragment {

@@ -15,9 +15,6 @@ import android.widget.ImageView;
 
 /**
  * Description:
- * Copyright  : Copyright (c) 2017
- * Author     : Young
- * Date       : 2017/10/5 21:54 *
  */
 
 public class ShaderImageView extends ImageView {

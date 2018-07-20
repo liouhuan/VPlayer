@@ -10,9 +10,6 @@ import java.util.List;
 
 /**
  * Description:
- * Copyright  : Copyright (c) 2017
- * Author     : Young
- * Date       : 2017/9/30 20:49 *
  */
 
 public class LikeAdapter extends BaseQuickAdapter {
